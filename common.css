@@ -79,7 +79,7 @@ body{
     color: #d0923e;
 }
 .btn.btn-gold:hover{
-    border-color: #d0923e;
+    background-color: #d0923e;
     color: #fff;
 }
 .btn.btn-green{

@@ -42,7 +42,7 @@
   display: block;
   width: 1px;
   height: 12px;
-  background-color: #000;
+  background-color: #2c2a29;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -131,7 +131,7 @@ translate: opacity .4s;
 
 }
 #head_layout .main-menu .item .item_contents .contents_menu{
-background-color: black;
+background-color: #2c2a29;
 /* height: 200px; */
 }
 #head_layout .main-menu .search input{
