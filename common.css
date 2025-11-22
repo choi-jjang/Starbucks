@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    font-weight: 300;
+    font-display: swap;
+}
+
+  *:not(.material-icons-round){
+  font-family:'NanumBarunGothic' !important;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+body{
+    height: 3000px;
+}
+.btn{
+    width: 130px;
+    padding: 10px;
+    border: 2px solid#333;
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+    display: block;
+}
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+    text-decoration: underline;
+}
+.btn.btn-reverse{
+    background-color: #333;
+    color: #fff;
+}
+
+.btn.btn-reverse:hover{
+    background-color:transparent;
+    color: #333;
+}
+.btn.btn-white{
+    border-color: #fff;
+    color: #fff;
+}
+.btn.btn.btn-white:hover{
+    background-color: #fff;
+    color: #333;
+}
+.btn.btn-gold{
+    border-color: #d0923e;
+    color: #d0923e;
+}
+.btn.btn-gold:hover{
+    border-color: #d0923e;
+    color: #fff;
+}
+.btn.btn-green{
+    border-color: #00704a;
+    background-color: #00704a;
+    color: white;
+}
+.btn.btn.btn-green:hover{
+    border-color: white;
+    background-color: white;
+    color: #333;
+}
+.back-to-position{
+    opacity: 0;
+    transition: 1s;
+}
+
+.show .back-to-position{
+    opacity: 1;
+}
+/* 왼 -> 오 */
+.back-to-position.to-right{
+    transform: translateX(-150px);
+}
+.back-to-position.to-left{
+    transform: translate(150px);
+}
+.show .back-to-position.to-left,
+.show .back-to-position.to-right{
+    transform: translateX(0);
+}
+.show .back-to-position.delay-1{
+    transition-delay: .3s;
+}
+.show .back-to-position.delay-2{
+    transition-delay: .6s;
+}
+.show .back-to-position.delay-3{
+    transition-delay: .9s;
+}
+.show .back-to-position.delay-4{
+    transition-delay: 1.2s;
+}
